@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: a44cebadf76bdcf4ab1198380d5e58ce
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - UIPrefab: {instanceID: 0}
+  - questManager: {instanceID: 0}
+  - AddQuestEffect: {fileID: 6285924938748691039, guid: 274e0097e70196d4e975276a5efd0fe7,
+      type: 3}
+  - CompleteEffect: {fileID: 5065012765470421857, guid: d3e3715c0444e0e47b721cd9ad0c0f61,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
