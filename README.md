@@ -199,17 +199,27 @@ Evaluation and Reflection Report  <br>
 
 <h3> DEVELOPEMENT</h3>
 <h4>architecture</h4>
+
   ![image](https://github.com/user-attachments/assets/8275e993-dd9e-4204-925e-c1826c3d68ed)
+  
 <h4>use-case</h4>
+
 ![image](https://github.com/user-attachments/assets/39477324-5c1c-4978-8715-4d401d7cd5de)
+
 <h5> example use-case specification</h5>
+
 ![image](https://github.com/user-attachments/assets/e3ebfa8e-bd86-41bb-95c3-5edd671015d4)
+
 <h4>example flow charts</h4>
+
 ![image](https://github.com/user-attachments/assets/9ecb1c98-32f1-4761-a8e4-292fc6afa0a8)
+
 <h4> Class diagram (blurred)</h4>
+
 ![image](https://github.com/user-attachments/assets/49f6d1ba-c116-4e48-ba68-d40a540f217f)
 
 <h3>RESULT</h3>
+
 <h4>demonstrate video: https://youtu.be/uXkrvhrtvFo</h4>
 
 ![image](https://github.com/user-attachments/assets/176034cb-6a90-43cb-95ea-d2a193c2bce1)
