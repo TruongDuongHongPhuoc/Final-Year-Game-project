@@ -199,7 +199,7 @@ Evaluation and Reflection Report  <br>
 
 <h3> DEVELOPEMENT</h3>
 <h4>architecture</h4>
-![image](https://github.com/user-attachments/assets/8275e993-dd9e-4204-925e-c1826c3d68ed)
+  ![image](https://github.com/user-attachments/assets/8275e993-dd9e-4204-925e-c1826c3d68ed)
 <h4>use-case</h4>
 ![image](https://github.com/user-attachments/assets/39477324-5c1c-4978-8715-4d401d7cd5de)
 <h5> example use-case specification</h5>
@@ -208,4 +208,16 @@ Evaluation and Reflection Report  <br>
 ![image](https://github.com/user-attachments/assets/9ecb1c98-32f1-4761-a8e4-292fc6afa0a8)
 <h4> Class diagram (blurred)</h4>
 ![image](https://github.com/user-attachments/assets/49f6d1ba-c116-4e48-ba68-d40a540f217f)
+
+<h3>RESULT</h3>
+<h4>demonstrate video: https://youtu.be/uXkrvhrtvFo</h4>
+
+![image](https://github.com/user-attachments/assets/176034cb-6a90-43cb-95ea-d2a193c2bce1)
+![image](https://github.com/user-attachments/assets/c8fc113f-0c6d-4d7d-955c-7fb84167509b)
+![image](https://github.com/user-attachments/assets/d99e1ddd-7401-4665-86ca-2f10030eeb8d)
+![image](https://github.com/user-attachments/assets/3246b9ec-cc4c-4cc3-a26a-97cb617a58e7)
+![image](https://github.com/user-attachments/assets/e54e7a30-c375-4a06-8327-cfb5648bc1b4)
+![image](https://github.com/user-attachments/assets/cb2cf137-c3cc-4019-8ad4-9e7e5f814933)
+![image](https://github.com/user-attachments/assets/cabcb37f-8318-4476-b91f-f73d0557320c)
+![image](https://github.com/user-attachments/assets/cd222185-e5ee-4241-b2eb-95822094c3c0)
 
