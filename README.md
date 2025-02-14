@@ -198,6 +198,7 @@ Evaluation and Reflection Report  <br>
 </table>
 
 <h3> DEVELOPEMENT</h3>
+
 <h4>architecture</h4>
 
   ![image](https://github.com/user-attachments/assets/8275e993-dd9e-4204-925e-c1826c3d68ed)
@@ -220,7 +221,8 @@ Evaluation and Reflection Report  <br>
 
 <h3>RESULT</h3>
 
-<h4>demonstrate video: https://youtu.be/uXkrvhrtvFo</h4>
+<h4 style="color: red;">demonstrate video: <a href="https://youtu.be/uXkrvhrtvFo" target="_blank">https://youtu.be/uXkrvhrtvFo</a></h4>
+
 
 ![image](https://github.com/user-attachments/assets/176034cb-6a90-43cb-95ea-d2a193c2bce1)
 ![image](https://github.com/user-attachments/assets/c8fc113f-0c6d-4d7d-955c-7fb84167509b)
