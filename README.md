@@ -233,3 +233,202 @@ Evaluation and Reflection Report  <br>
 ![image](https://github.com/user-attachments/assets/cabcb37f-8318-4476-b91f-f73d0557320c)
 ![image](https://github.com/user-attachments/assets/cd222185-e5ee-4241-b2eb-95822094c3c0)
 
+<h3> Test Execution</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Test ID</th>
+      <th>Description</th>
+      <th>Pre-condition</th>
+      <th>Test Step</th>
+      <th>Expected Result</th>
+      <th>Actual Result</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Verify that the player can move in eight directions</td>
+      <td>Player character activate</td>
+      <td>Press ‘W’, ‘S’,’ A’, ’D’. “W+A” , “W+D” “S+A”,”S+D”</td>
+      <td>The player moves in eight directions procedurally</td>
+      <td>The player moves in eight directions procedurally</td>
+      <td>Pass</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Verify that the player can interact with other objects</td>
+      <td>Player character activate</td>
+      <td>Move in front of interactable object(s) and press “E”</td>
+      <td>Players can interact with objects</td>
+      <td>Players can interact with objects</td>
+      <td>Pass</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Verify that the player can start a dialogue by interacting with NPC(s)</td>
+      <td>Player character activate</td>
+      <td>Move in front of the interactable NPC and press “E.”</td>
+      <td>Players can view dialogue</td>
+      <td>Players can view dialogue</td>
+      <td>Pass</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Verify that the player can unlock a new skill in the skill tree</td>
+      <td>Players interact with specific NPC that open skill trees and have at least one skill</td>
+      <td>Click on the darken skill image.</td>
+      <td>New skill unlocked and equipable</td>
+      <td>New skill unlocked and equipable</td>
+      <td>Pass</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Verify that the player can equip and unequip skills</td>
+      <td>The player must have at least two skills and in skills manage the UI</td>
+      <td>Select a skill and click the equip and unequip button procedurally</td>
+      <td>Skill being equipped and unequipped</td>
+      <td>Skill being equipped and unequipped</td>
+      <td>Pass</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>Verify that the player can equip and unequip armour</td>
+      <td>The player must have at least one piece of armour, and in player management UI</td>
+      <td>Click the button equip and unequip an armour piece</td>
+      <td>The armour piece is equipped and unequipped.</td>
+      <td>The armour piece is being equipped and unequipped.</td>
+      <td>Pass</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>Verify that the player can use items from the inventory</td>
+      <td>The player must have at least one usable item in inventory and inventory UI</td>
+      <td>Select the item and click use button</td>
+      <td>The item will be used</td>
+      <td>The item will be used</td>
+      <td>Pass</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>Verify that the player can start the battle by moving in the range of the enemy.</td>
+      <td>The player must be active, and the enemy is not defeated.</td>
+      <td>The player moves into range of the enemy</td>
+      <td>Battle scene load and start the battle</td>
+      <td>Battle scene load and start the battle</td>
+      <td>Pass</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>Verify that the user can use skills by clicking the button.</td>
+      <td>The player must be in battle and equip at least one skill and at player action turn.</td>
+      <td>Players click the skill to operate the attack.</td>
+      <td>The attack being operated and procedure animation affects and damages the enemy.</td>
+      <td>The attack being operated and procedure animation affects and damages the enemy.</td>
+      <td>Pass</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>Verify that harmful effects deal bad conditions to the player and enemy</td>
+      <td>Player and enemy must contain effect and in battle. The effect will operate when it is the right turn.</td>
+      <td>Player effect operates and deals exceptional conditions to players in player effect turn. Enemy effect operates and deals exceptional conditions to the enemy in enemy effect turn.</td>
+      <td>The player is affected by a harmful effect in the player effect turn. Enemy affected by harmful effects in enemy harmful effect turn.</td>
+      <td>The player is affected by a harmful effect in the player effect turn. Enemy affected by harmful effects in enemy harmful effect turn.</td>
+      <td>Pass</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>Verify that the player will be rewarded when all enemies are defeated and return to RPG gameplay.</td>
+      <td>The player must battle with at least one enemy and successfully pull the enemy's health to 0 or below.</td>
+      <td>Players start a battle with the enemy and use skills to defeat the enemy.</td>
+      <td>The Win scene will be displayed, and the reward will be directly put into the player inventory to load the previous scene.</td>
+      <td>The Win scene will be displayed, and the reward will be directly put into the player inventory and load the previous scene.</td>
+      <td>Pass</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>Verify that the quest is added when the user meets a specific condition.</td>
+      <td>Players have just started the game.</td>
+      <td>Interact with the mother to get the first quest.</td>
+      <td>The effect quest added will be displayed, and the quest will also be displayed in the pause menu.</td>
+      <td>The effect quest added will be displayed, and the quest will also be displayed in the pause menu.</td>
+      <td>Pass</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>Verify that the activated quest will be complete when the quest completes the condition.</td>
+      <td>Players have their mother activate the mother's quest.</td>
+      <td>Players follow the road and move to a particular position that triggers a cutscene.</td>
+      <td>The quest complete effect will be displayed, and the quest displayed in the pause menu will be gone.</td>
+      <td>The quest complete effect will be displayed, and the quest displayed in the pause menu will be gone.</td>
+      <td>Pass</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>Verify that the cutscene will be activated when the player meets a specific condition.</td>
+      <td>Players have activated the mother quest and completed the quest.</td>
+      <td>The cutscene will be played as soon as the user moves to the completed mother quest location.</td>
+      <td>The cutscene will load.</td>
+      <td>The cutscene will load.</td>
+      <td>Pass</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>Verify that the skill element interacts with the unit element while battling.</td>
+      <td>Players battling with an enemy have at least four skills equipped with different elements.</td>
+      <td>Players use different skills in an opponent. The base damage and the colour of the pop-up text will be different from each other.</td>
+      <td>The base damage and the colour of the pop-up text will be different from each other.</td>
+      <td>The base damage and the colour of the pop-up text will be different from each other.</td>
+      <td>Pass</td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td>Verify that the enemy will be spawned in a particular area.</td>
+      <td>The player in the map which has enemies moving around respawns when defeated.</td>
+      <td>Players move to scenes with enemies moving around, interacting and defeating the enemies.</td>
+      <td>The enemy will be spawned randomly in an area.</td>
+      <td>The enemy will be spawned randomly in an area.</td>
+      <td>Pass</td>
+    </tr>
+    <tr>
+      <td>17</td>
+      <td>Verify that an enemy in a particular area can move around.</td>
+      <td>Players in specific spots that have enemies spawned.</td>
+      <td>Players move to specific spots that have enemy spawned and observation.</td>
+      <td>Enemy walking randomly around and activating the corresponding animation.</td>
+      <td>Enemy walking randomly around and activating the corresponding animation.</td>
+      <td>Pass</td>
+    </tr>
+    <tr>
+      <td>18</td>
+      <td>Verify that the player can save at the save scene.</td>
+      <td>Players interact with specific trees to access the saved scene.</td>
+      <td>The player clicks the save button of a save slot in the save slot.</td>
+      <td>The information in the save slot is being changed.</td>
+      <td>The information in the save slot is being changed.</td>
+      <td>Pass</td>
+    </tr>
+    <tr>
+      <td>19</td>
+      <td>Verify that the player can load at the load scene in the pause menu.</td>
+      <td>Players have at least one saved information from previous gameplay.</td>
+      <td>The player clicks the load button in the slot.</td>
+      <td>The game will load and have the same information as the previous gameplay.</td>
+      <td>The game will load and have the same information as the previous gameplay.</td>
+      <td>Pass</td>
+    </tr>
+    <tr>
+      <td>20</td>
+      <td>Verify that when there is an obstruction in the front of the camera to the player, the obstruction will temporarily disappear.</td>
+      <td>Player activated.</td>
+      <td>A player moves behind a big object to block the view.</td>
+      <td>The obstruction will disappear temporarily and return as soon as the user can view the character.</td>
+      <td>The obstruction will disappear temporarily and return as soon as the user can view the character.</td>
+      <td>Pass</td>
+    </tr>
+  </tbody>
+</table>
+
+
